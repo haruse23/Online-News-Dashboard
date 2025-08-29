@@ -1,0 +1,375 @@
+/* About page specific styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Dark Mode */
+
+/* Page background */
+.dark-mode main {
+    background: #181a1b;
+    color: #e0e0e0;
+}
+
+/* Header section */
+.dark-mode .about-header {
+    background: linear-gradient(135deg, #0a3d8f, #072c6f);
+    color: #fff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.dark-mode .about-header .subtitle {
+    opacity: 0.85;
+}
+
+/* About sections */
+.dark-mode .about-section h2 {
+    color: #f1f1f1;
+    border-left-color: #f39c12;
+}
+
+/* Content cards */
+.dark-mode .content-card {
+    background: #23272f;
+    color: #e0e0e0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.dark-mode .content-card p,
+.dark-mode .content-card ul {
+    color: #ccc;
+}
+
+/* Features grid */
+.dark-mode .feature-item {
+    background: #23272f;
+    color: #ddd;
+}
+
+.dark-mode .feature-item h3 {
+    color: #f1f1f1;
+}
+
+.dark-mode .feature-item p {
+    color: #aaa;
+}
+
+/* Data source section */
+.dark-mode .api-badge {
+    background: linear-gradient(135deg, #b9770e, #9c4d00);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.dark-mode .source-info h3 {
+    color: #f1f1f1;
+}
+
+.dark-mode .source-note {
+    background: #23272f;
+    color: #ccc;
+    border-left-color: #0a3d8f;
+}
+
+/* Team section */
+.dark-mode .team-intro {
+    color: #ccc;
+}
+
+.dark-mode .team-member {
+    background: #23272f;
+    border: 2px solid transparent;
+    color: #e0e0e0;
+}
+
+.dark-mode .team-member:hover {
+    border-color: #0a3d8f;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.dark-mode .team-member h3 {
+    color: #fff;
+}
+
+.dark-mode .avatar-placeholder {
+    background: linear-gradient(135deg, #0a3d8f, #072c6f);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+/* Contact section */
+.dark-mode .contact-item {
+    background: #23272f;
+    color: #ccc;
+    border-left-color: #0a3d8f;
+}
+
+.dark-mode .contact-item strong {
+    color: #fff;
+}
+
+/* Header section */
+.about-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(13, 110, 253, 0.15);
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-header .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* About sections */
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #1e3d58;
+    border-left: 6px solid #f39c12;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+/* Content cards */
+.content-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    line-height: 1.7;
+}
+
+.content-card p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.content-card ul {
+    color: #555;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.content-card li {
+    margin-bottom: 8px;
+}
+
+/* Features grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    color: #1e3d58;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.feature-item p {
+    color: #666;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Data source section */
+.data-source {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.source-logo {
+    flex-shrink: 0;
+}
+
+.api-badge {
+    background: linear-gradient(135deg, #f39c12, #d35400);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(243, 156, 18, 0.3);
+}
+
+.source-info h3 {
+    color: #1e3d58;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.source-note {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-left: 4px solid #0d6efd;
+    border-radius: 5px;
+}
+
+/* Team section */
+.team-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.team-member {
+    text-align: center;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-color: #0d6efd;
+}
+
+.member-avatar {
+    margin-bottom: 15px;
+}
+
+.avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.2);
+}
+
+.team-member h3 {
+    color: #1e3d58;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Contact section */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #0d6efd;
+    color: #555;
+}
+
+.contact-item strong {
+    color: #1e3d58;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-header h1 {
+        font-size: 2rem;
+    }
+    
+    .about-header .subtitle {
+        font-size: 1rem;
+    }
+    
+    .about-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .content-card {
+        padding: 20px;
+    }
+    
+    .data-source {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 15px;
+    }
+    
+    .about-header {
+        padding: 30px 15px;
+    }
+    
+    .team-member {
+        padding: 20px;
+    }
+    
+    .avatar-placeholder {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: #007BFF;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* Button group styling */
+.btn-group button {
+  padding: 10px 18px;
+  border: 2px solid #007BFF;
+  border-radius: 6px;
+  background: #fff;
+  color: #007BFF;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.btn-group button:hover {
+  background: #007BFF;
+  color: #fff;
+}
+
+.btn-group button.active {
+  background: #007BFF;
+  color: #fff;
+}
+
+/* Category gold highlight */
+#categoryButtons button.category-gold {
+  background: gold;
+  color: #333;
+  border-color: gold;
+}
+
+/* Save button */
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #28a745;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+/* Header */
+body.dark-mode header {
+  background: linear-gradient(135deg, #0a3d8f, #072c6f);
+  color: #fff;
+}
+
+/* Container */
+body.dark-mode .container {
+  background: #2c2c2c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+/* Headings */
+body.dark-mode h2 {
+  color: #4da3ff;
+}
+
+/* Labels */
+body.dark-mode label {
+  color: #ddd;
+}
+
+/* Button group */
+body.dark-mode .btn-group button {
+  background: #2c2c2c;
+  color: #4da3ff;
+  border-color: #4da3ff;
+}
+
+body.dark-mode .btn-group button:hover,
+body.dark-mode .btn-group button.active {
+  background: #4da3ff;
+  color: #fff;
+}
+
+/* Save button */
+body.dark-mode .btn {
+  background: #1f883d;
+  color: #fff;
+}
+
+body.dark-mode .btn:hover {
+  background: #146c2e;
+}
