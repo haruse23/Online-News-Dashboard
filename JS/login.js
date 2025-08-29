@@ -36,10 +36,11 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
             sessionStorage.setItem('loggedIn', 'true');
             sessionStorage.setItem('username', user.username);
             sessionStorage.setItem('email', user.email);
-            window.location.href = 'home.html';
+            window.location.href = 'index.html';
         } else {
             passwordError.textContent = 'Invalid email or password';
             passwordError.style.display = 'block';
         }
     }
+
 });
