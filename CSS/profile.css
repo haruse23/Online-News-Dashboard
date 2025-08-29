@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+.first_header {
+    background: linear-gradient(to right, #ffd000, #ff8800);
+
+    border: 2px solid black;
+   
+    
+    border-radius: 10px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+    padding: 10px 20px;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+
+   
+}
+
+.info {
+    position: relative;
+    top: 50px;
+    left: 30px
+}
+
+
+
+h3 {
+    position: relative;
+    left: 20px;
+}
+
+.preferences {
+
+    position: relative;
+
+    top: 100px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#languageSelect {
+    position: relative;
+
+    left: 5px;
+
+    bottom: 5px;
+    padding: 5px;
+
+
+}
+
+
+a {
+
+    color: black;
+
+
+
+}
+
+#favoritesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.news-card {
+  flex: 1 1 300px;   /* كل كارت عرضه 300px على الأقل */
+  max-width: 320px;
+}
+.news-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 15px;
+  max-width: 320px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.news-card:hover {
+  transform: scale(1.02);
+}
+
+.news-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.news-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.news-content h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.news-content h3 a:hover {
+  color: #007BFF;
+}
+
+.news-meta {
+  font-size: 12px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.news-description {
+  font-size: 14px;
+  color: black;
+}
+
+
+
+body.dark-mode {
+  background: #121212; 
+  color: #e0e0e0;     
+}
+
+
+.dark-mode .first_header {
+  background: linear-gradient(to right, #333, #555);
+  border: 2px solid #666;
+  color: #f0f0f0;
+}
+
+
+.dark-mode a {
+  color: #80bfff;
+}
+
+.dark-mode a:hover {
+  color: #4da3ff;
+}
+
+
+.dark-mode .news-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.6);
+}
+
+.dark-mode .news-content h3 a {
+  color: #e0e0e0;
+}
+
+.dark-mode .news-content h3 a:hover {
+  color: #4da3ff;
+}
+
+.dark-mode .news-meta {
+  color: #aaa;
+}
+
+.dark-mode .news-description {
+  color: #ccc;
+}
