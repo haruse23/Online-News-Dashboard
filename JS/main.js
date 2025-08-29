@@ -1,6 +1,6 @@
 // Navbar injection, search handling, and theme application.
 const pagesWithSearch = [
-  "home.html",
+  "index.html",
   "search.html",
   "category-business.html",
   "category-health.html",
@@ -129,3 +129,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
